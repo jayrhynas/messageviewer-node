@@ -1,0 +1,20 @@
+{
+  "name": "messageviewer",
+  "version": "0.0.0",
+  "description": "Parses iPhone/iPad backups and extracts SMS/iMessage logs",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "async": "~0.2.10",
+    "bplist-parser": "0.0.5",
+    "cli-color": "~0.2.3",
+    "inquirer": "~0.4.1",
+    "plist": "~0.4.3",
+    "prompt": "~0.2.12",
+    "sprintf-js": "0.0.7",
+    "sqlite3": "~2.2.0",
+    "wordwrap": "0.0.2"
+  }
+}
